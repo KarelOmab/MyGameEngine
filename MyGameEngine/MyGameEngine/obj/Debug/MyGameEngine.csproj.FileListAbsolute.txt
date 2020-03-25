@@ -1,0 +1,9 @@
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\bin\Debug\MyGameEngine.exe.config
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\bin\Debug\MyGameEngine.exe
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\bin\Debug\MyGameEngine.pdb
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\obj\Debug\MyGameEngine.Window.resources
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\obj\Debug\MyGameEngine.Properties.Resources.resources
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\obj\Debug\MyGameEngine.csproj.GenerateResource.Cache
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\obj\Debug\MyGameEngine.csproj.CoreCompileInputs.cache
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\obj\Debug\MyGameEngine.exe
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\MyGameEngine\obj\Debug\MyGameEngine.pdb
