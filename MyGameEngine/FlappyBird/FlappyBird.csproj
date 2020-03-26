@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A6DBEB1-1B39-4B7A-BFB3-7E9E7BF4D2EB}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>MyGameEngine</RootNamespace>
-    <AssemblyName>MyGameEngine</AssemblyName>
+    <ProjectGuid>{ABFBB3C7-EE56-4C91-8B20-445D86A3B925}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FlappyBird</RootNamespace>
+    <AssemblyName>FlappyBird</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
@@ -51,16 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
-    <Compile Include="GameLoop.cs" />
-    <Compile Include="GameSprite.cs" />
-    <Compile Include="GameText.cs" />
+    <Compile Include="GameObstacle.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RenderWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="RenderWindow.Designer.cs">
-      <DependentUpon>RenderWindow.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,9 +61,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RenderWindow.resx">
-      <DependentUpon>RenderWindow.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,7 +75,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bomber-sprite.png" />
+    <ProjectReference Include="..\MyGameEngine\MyGameEngine.csproj">
+      <Project>{2A6DBEB1-1B39-4B7A-BFB3-7E9E7BF4D2EB}</Project>
+      <Name>MyGameEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bird.png" />

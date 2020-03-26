@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGameEngine", "MyGameEngine\MyGameEngine.csproj", "{2A6DBEB1-1B39-4B7A-BFB3-7E9E7BF4D2EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird", "FlappyBird\FlappyBird.csproj", "{ABFBB3C7-EE56-4C91-8B20-445D86A3B925}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A6DBEB1-1B39-4B7A-BFB3-7E9E7BF4D2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A6DBEB1-1B39-4B7A-BFB3-7E9E7BF4D2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6DBEB1-1B39-4B7A-BFB3-7E9E7BF4D2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFBB3C7-EE56-4C91-8B20-445D86A3B925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFBB3C7-EE56-4C91-8B20-445D86A3B925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFBB3C7-EE56-4C91-8B20-445D86A3B925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFBB3C7-EE56-4C91-8B20-445D86A3B925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

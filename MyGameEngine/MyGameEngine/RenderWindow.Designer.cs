@@ -1,6 +1,6 @@
 ﻿namespace MyGameEngine
 {
-    partial class Window
+    partial class RenderWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -42,6 +42,7 @@
             this.Text = "Window";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Window_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Window_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Window_KeyDown);
             this.ResumeLayout(false);
 

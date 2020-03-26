@@ -1,0 +1,12 @@
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\bin\Debug\FlappyBird.exe.config
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\bin\Debug\FlappyBird.exe
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\bin\Debug\FlappyBird.pdb
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\obj\Debug\FlappyBird.csprojResolveAssemblyReference.cache
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.Cache
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\obj\Debug\FlappyBird.exe
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\obj\Debug\FlappyBird.pdb
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\bin\Debug\MyGameEngine.dll
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\bin\Debug\MyGameEngine.pdb
+C:\Users\it\source\repos\MyGameEngine\MyGameEngine\FlappyBird\bin\Debug\MyGameEngine.dll.config
